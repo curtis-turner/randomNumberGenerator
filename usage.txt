@@ -1,0 +1,23 @@
+This document contains the usage information for the guessing game written in Python.
+
+Proper usage of this application requirements are listed below.
+
+To start the program:
+Move to the director containing the games Python program, namely "guess.py"
+Ensure that guess.py and MyPRNG.py are in the same directory.
+
+Next enter the rest of the line options:
+Enter -h display this file which shows you how to run the game and then quits the program.
+
+Enter -v to get verbose mode or debugging messages.
+
+Enter -s followed by an integer to set the games initial seed
+
+Enter -n followed by and integer to set the minium value for the Psuedo Random Number Generator
+
+Enter --max followed by and integer to set the maximum value for the Psuedo Random Number Generator
+
+Example execution would be as follows:
+yourusername@yourhostname:~/directory_containing_both_files$ python3 guess.py -s 5 -n 1 --max 100
+
+Thank you and enjoying playing the game.
